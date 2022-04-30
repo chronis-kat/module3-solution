@@ -1,0 +1,52 @@
+/*Header*/
+
+.navbar{
+  border: #081c15 solid 2px;
+}
+
+h1{
+  color: #081c15;
+}
+
+hr{
+  background-color: #081c15;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-collapse ul {
+ display: none;
+}
+}
+
+@media (max-width: 576px){
+  .navbar{
+    text-align: center;
+  }
+   #xsborder {
+    border: #081c15 solid 2px;
+    min-width: 100%;
+   }
+  }
+  
+
+
+/*Main*/
+
+.menu{
+  margin-top: 10px;
+}
+
+h3, p{
+  color: #fff;
+}
+
+@media (max-width: 576px){
+  .menu{
+    margin: 10px 30px;
+  }
+  }
